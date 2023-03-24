@@ -266,9 +266,9 @@ async function moreLikeThis(element) {
 
   const relatedgames = uniqueArr.map((game) => {
     return `
-            <section id="moreCards" class="max-w-sm max-h-fit scale-75 min-[800px]:scale-90 card bg-violet-500 rounded-lg subpixel-antialiased border border-black shadow-md shadow-black hover:bg-red-300 hover:scale-100">
+            <section id="card" class="max-w-sm max-h-fit scale-75 min-[800px]:scale-90 card bg-violet-500 rounded-lg subpixel-antialiased border border-black shadow-md shadow-black hover:bg-red-300 hover:scale-100">
             <a onclick="getSearchedGame(top4List, '${game.name}')">
-                <img id="relatedGameImage" class="min-[800px]:max-w-sm max-w-sm aspect-auto min-h-fit" src="${game.background_image}">
+                <img id="cardImg" class="min-[800px]:max-w-sm max-w-sm aspect-auto min-h-fit" src="${game.background_image}">
                 <div id="relatedTitle" class=" text-center italic text-lg font-bold font-mono subpixel-antialiased shadow-xl shadow-violet-600">${game.name}</div>
                 <div id="relatedRelease" class="text-lg text-center font-mono subpixel-antialiased shadow-xl shadow-violet-600">${game.released}
             </a>
