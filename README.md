@@ -1,6 +1,6 @@
 # MyGamerList
 
-[mygamerlist.onrender.com](https://mygamerlist.onrender.com/)  
+<a href="https://mygamerlist.onrender.com/" target="_blank">mygamerlist.onrender.com</a>  
 Developed by: Alex Perez & Brandon Lopez
 
 ## What is it?
