@@ -54,8 +54,8 @@ function scroll(direction) {
 
 function darkMode() {
   darkSwitch.classList.add("dark");
-  body.setAttribute("style", "background-image:url()");
-  body.setAttribute("style", "background-image:url(../assets/bg-night.gif)");
+  body.style.backgroundImage = "url()";
+  body.style.backgroundImage = "url(./images/bg-night.gif)";
 }
 
 hotGames(top4List);
