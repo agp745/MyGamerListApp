@@ -1,6 +1,6 @@
 # MyGamerList
 
-https://mygamerlist.onrender.com/  
+[mygamerlist.onrender.com](https://mygamerlist.onrender.com/)  
 Developed by: Alex Perez & Brandon Lopez
 
 ## What is it?
